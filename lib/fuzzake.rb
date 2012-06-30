@@ -1,5 +1,5 @@
 require_relative "fuzzake/version"
-import File.expand_path "fuzzake_task.rake", "lib"
+import "fuzzake_task.rake"
 
 module Fuzzake
 end
